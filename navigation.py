@@ -23,6 +23,9 @@ def make_sidebar():
         if st.session_state.get("logged_in", False):
             st.page_link("pages/page1.py", label="6th Grade - List of Words", icon="🕵️")
             st.page_link("pages/page2.py", label="6th Grade - Spelling Game", icon="👍")
+            st.page_link("pages/page1.py", label="5th Grade - List of Words", icon="🕵️")
+            st.page_link("pages/page2.py", label="5th Grade - Spelling Game", icon="👍")
+            
 
             st.write("")
             st.write("")
@@ -38,6 +41,6 @@ def make_sidebar():
 
 def logout():
     st.session_state.logged_in = False
-    st.info("Logged out successfully!")
+    st.info("👍Logged out successfully!")
     sleep(0.5)
     st.switch_page("streamlit_app.py")
