@@ -41,6 +41,6 @@ def make_sidebar():
 
 def logout():
     st.session_state.logged_in = False
-    st.info("👍Logged out successfully!")
+    st.info("✔️Logged out successfully!")
     sleep(0.5)
     st.switch_page("streamlit_app.py")
