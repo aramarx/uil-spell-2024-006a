@@ -5,7 +5,7 @@ make_sidebar()
 
 st.write(
     """
-# 🕵️ 6th Grade - List of Words
+# 📝 6th Grade - List of Words
 
 ---Words starting with 'A':
 
